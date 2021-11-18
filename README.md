@@ -9,6 +9,10 @@ The dataset contains 5110 unique records with 12 attributes for each, collecting
 -	60% for training.
 -	20% for validation.
 
+# Design
+    - Six models were used in this project to predict the stroke probability and get the best result.
+    - The models are Logistic Regression, Random Forest, Decision Tree, KNN, Naive Bayes, and KMeans.
+    
 # Algorithms
 -	Feature Engineering
 
@@ -23,7 +27,7 @@ o	use SMOTE from imblearn to solve the imbalence data
 Applied Logistic Regression, Random Forest, Decision Tree, K-nearest neighbors, Naive Bayes, and Naive Bayes. The Random Forest which has the highest accuracy were chosen as the model.
 -	Final score for each models
 
-Applied Logistic Regression:  0.786692759295499
+Logistic Regression:  0.786692759295499
 Random Forest:  0.910958904109589
 Decision Tree:  0.8688845401174168
 KNN:  0.8140900195694716
