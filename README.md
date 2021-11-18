@@ -11,6 +11,7 @@ The dataset contains 5110 unique records with 12 attributes for each, collecting
 
 # Algorithms
 -	Feature Engineering
+
 o	Substituting the missing values with the mean.
 o	Replacing the outlier values with the mode.
 o	Visualize the relation between stroke and other features by use pandas crosstab and seaborn heatmap.
@@ -18,8 +19,10 @@ o	Convert categorical variables to numbers by LabelEncoder in sklearn.
 o	scale values of avg_glucose_level,  bmi, and age by using StandardScaler in sklearn.
 o	use SMOTE from imblearn to solve the imbalence data
 -	Models
+
 Applied Logistic Regression, Random Forest, Decision Tree, K-nearest neighbors, Naive Bayes, and Naive Bayes. The Random Forest which has the highest accuracy were chosen as the model.
 -	Final score for each models
+
 Applied Logistic Regression:  0.786692759295499
 Random Forest:  0.910958904109589
 Decision Tree:  0.8688845401174168
